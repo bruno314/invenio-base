@@ -250,6 +250,7 @@ Please see the INSTALL file for more details.
 
 
 def main():
+    """Pep257 docstring."""
     from ..factory import create_app
     app = create_app()
     manager.app = app
